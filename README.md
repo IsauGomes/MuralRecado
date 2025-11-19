@@ -25,6 +25,8 @@ Ideal para estudos de **CRUD**, **Blueprints**, **SQLAlchemy** e estrutura bási
 - JavaScript  
 - SQLite  
 
+---
+
 ## 📂 Estrutura do Projeto
 
 controllers/
