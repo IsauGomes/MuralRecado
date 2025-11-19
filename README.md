@@ -74,3 +74,6 @@ templates/
 │
 
 run.py
+
+Desenvolvido por **João Pedro Barros** e **Isaú Gomes Ribeiro**
+
