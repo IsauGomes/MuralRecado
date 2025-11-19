@@ -1,34 +1,29 @@
-# MuralRecado
+# 📌 Mural de Recados – Flask
 
-📌 Mural de Recados – Flask
+Um pequeno projeto em **Flask** que permite criar, listar, editar, buscar e deletar recados.  
+Ideal para estudos de **CRUD**, **Blueprints**, **SQLAlchemy** e estrutura básica de um app Flask.
 
-Um pequeno projeto em Flask que permite criar, listar, editar, buscar e deletar recados.
-Ideal para estudos de CRUD, Blueprints, SQLAlchemy e estrutura básica de um app Flask.
+---
 
-🚀 Funcionalidades
+## 🚀 Funcionalidades
 
-📄 Criar recados (título, autor e mensagem)
+- 📄 Criar recados  
+- 🔍 Buscar por título ou autor  
+- ✏️ Editar recados  
+- ❌ Excluir com confirmação  
+- 🎨 Layout simples (HTML + CSS)  
+- 🗄️ Banco SQLite integrado  
 
-🔍 Buscar recados por título ou autor
+---
 
-✏️ Editar recados existentes
+## 🛠️ Tecnologias Utilizadas
 
-❌ Excluir recados com confirmação
+- Python 3  
+- Flask  
+- Flask SQLAlchemy  
+- HTML/CSS  
+- JavaScript  
+- SQLite  
 
-🎨 Layout simples usando HTML + CSS
 
-🗄️ Banco de dados SQLite integrado
 
-🛠️ Tecnologias Utilizadas
-
-Python 3
-
-Flask
-
-Flask SQLAlchemy
-
-HTML/CSS
-
-JavaScript (confirmação de exclusão)
-
-SQLite
