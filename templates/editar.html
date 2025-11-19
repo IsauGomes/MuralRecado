@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Editar Recado</title>
+</head>
+<body>
+
+<h1>Editar Recado</h1>
+
+<form method="POST">
+    <input type="text" name="titulo" value="{{ recado.titulo }}" required>
+    <input type="text" name="autor" value="{{ recado.autor }}" required>
+    <textarea name="mensagem" required>{{ recado.mensagem }}</textarea>
+    <button type="submit">Salvar</button>
+</form>
+
+<a href="/">Voltar</a>
+
+</body>
+</html>

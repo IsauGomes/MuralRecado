@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="/static/js/script.js" defer></script>
+    <title>Mural de Recados</title>
+</head>
+<body>
+
+<h1>Mural de Recados</h1>
+
+<a href="/criar" class="btn">Criar novo recado</a>
+
+<form method="GET">
+    <input type="text" name="busca" placeholder="Buscar..." value="{{ busca }}">
+    <button type="submit">Buscar</button>
+</form>
+
+<div id="lista">
+    {% for r in recados %}
+        <div class="card">
+            <h3>{{ r.titulo }}</h3>
+            <small>Autor: {{ r.autor }}</small>
+            <p>{{ r.mensagem }}</p>
+
+            <a href="/editar/{{ r.id }}" class="btn">Editar</a>
+            <a href="/deletar/{{ r.id }}" class="btn del" onclick="return confirmar()">Deletar</a>
+        </div>
+    {% endfor %}
+</div>
+
+</body>
+</html>
