@@ -26,37 +26,28 @@ Ideal para estudos de **CRUD**, **Blueprints**, **SQLAlchemy** e estrutura bási
 - SQLite  
 
 ## 📂 Estrutura do Projeto
-/projeto_final
 
-│
+controllers/
 
-├── run.py
-
-├── README.md
-
-│
-
-├── controllers/
+│ ├── pycache/
 
 │ └── views.py
 
 │
 
-├── models/
-
-│ └── modelo.py # classes a serem criadas
+instance/
 
 │
 
-├── templates/
+models/
 
-│ ├── index.html
+│ ├── pycache/
 
-│ └── outras_paginas.html # adicionar conforme necessário
+│ └── modelo.py
 
 │
 
-├── static/
+static/
 
 │ ├── css/
 
@@ -64,12 +55,20 @@ Ideal para estudos de **CRUD**, **Blueprints**, **SQLAlchemy** e estrutura bási
 
 │ │
 
-│ ├── js/
+│ └──js/
 
-│ │ └── script.js
+│ └── script.js
 
-│ │
+│
 
-│ └── img/
+templates/
 
-│ └── (imagens usadas no projeto)
+│ ├── criar.html
+
+│ ├── editar.html
+
+│ └── index.html
+
+│
+
+run.py
